@@ -1,0 +1,11 @@
+@font-face{
+	font-family: 'myfont';
+	src: url('myfont.otf') format('opentype');
+	font-weight: 400;
+}
+
+body{
+	background: yellow;
+	font-family: 'myfont'; 						
+	font-size: 100px;
+}
