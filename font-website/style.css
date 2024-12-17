@@ -1,0 +1,77 @@
+@font-face{
+	font-family: 'TT-Travels-Next-Trial-1-000';
+	src: url('TT-Travels-Next-Trial-1-000/TT-Travels-Next-Trial-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'TT-Travels-Next-Trial-1-000';
+	src: url('TT-Travels-Next-Trial-1-000/TT-Travels-Next-Trial-Black-Outline.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+            font-family: TT-Travels-Next-Trial-1-000;
+            font-weight: 400;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #bed6b9;
+        }
+        .header {
+            position: static;
+            height: 50vh;
+            background-image: url('images/background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            padding-bottom: 100px;
+            padding-left: 45vw;
+            padding-right: 10vw;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            line-height: 1.0;
+        }
+       .header h1 {
+        	font-family: 'TT-Travels-Next-Trial-1-000', Arial, sans-serif;
+        	font-weight: 700;
+            font-size: clamp(1.5rem, 4vw, 3rem);
+            text-align: left;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin:0;
+            color: #bed6b9;
+        }
+        h2{
+        	font-family: 'TT-Travels-Next-Trial-1-000', Arial, sans-serif;
+        	font-weight: 400;
+        	color: #0b1054;
+        }
+        .article {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .article p {
+            line-height: 1.6;
+        }
+        a:hover {
+    text-decoration: underline;}
+      .image-wrap-left {
+            float: left;
+            margin-right: 20px; 
+            margin-bottom: 15px; 
+            margin-top: 20px;
+            width: 400px; 
+        }
+        .image-wrap-right {
+            float: right;
+            margin-left: 20px; 
+            margin-bottom: 15px;
+            margin-top: 20px; 
+            width: 400px; 
+        }
